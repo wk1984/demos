@@ -1,0 +1,12 @@
+name: demo-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - tensorflow
+  - torch
+  - pandas
+  - neuralhydrology
+  - dask
