@@ -8,3 +8,5 @@ dependencies:
   - pandas
   - xarray
   - mhm
+  - netcdf4
+  - h5netcdf
