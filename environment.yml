@@ -5,7 +5,6 @@ dependencies:
   - python
   - numpy
   - matplotlib
-  - pytorch
   - pandas
-  - pip:
-    - ai4water
+  - xarray
+  - mhm
