@@ -10,3 +10,5 @@ dependencies:
   - mhm
   - netcdf4
   - h5netcdf
+  - pip:
+    - pyDeltaRCM
