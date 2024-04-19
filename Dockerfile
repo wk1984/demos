@@ -1,7 +1,7 @@
 # Dockerfile for binder
 # Reference: https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
 
-FROM wk1984/ats120_2023:f88e4a6652a4
+FROM wk1984/ats120_2023:latest
 
 USER root
 
