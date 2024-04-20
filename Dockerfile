@@ -14,7 +14,7 @@ ENV HOME /home/${NB_USER}
 RUN adduser --disabled-password --gecos "Default user" --uid ${NB_UID} ${NB_USER}
 
 # Make sure the contents of the notebooks directory are in ${HOME}
-COPY *.ipynb ${HOME}/
+COPY 06_arctic_hydrology/* ${HOME}/
 RUN chown -R ${NB_USER}:${NB_USER} ${HOME}
 
 # Switch to the user
@@ -22,3 +22,5 @@ USER ${NB_USER}
 
 # Start in the home directory of the user
 WORKDIR /home/${NB_USER}
+
+CMD ["jupyter-lab" ,  "--ip=0.0.0.0"  , "--no-browser"]
