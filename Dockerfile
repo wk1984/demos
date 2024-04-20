@@ -23,4 +23,4 @@ USER ${NB_USER}
 # Start in the home directory of the user
 WORKDIR /home/${NB_USER}
 
-CMD ["jupyter-lab" ,  "--ip=0.0.0.0"  , "--no-browser"]
+CMD ["jupyter-lab" ,  "--ip=0.0.0.0"]
