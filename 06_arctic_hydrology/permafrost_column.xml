@@ -69,7 +69,7 @@
   </ParameterList>
 
   <ParameterList name="cycle driver" type="ParameterList">
-    <Parameter name="end cycle" type="int" value="3000" />
+    <!-- <Parameter name="end cycle" type="int" value="3000" /> -->
     <Parameter name="start time" type="double" value=" 0" />
     <Parameter name="start time units" type="string" value="s" />
     <Parameter name="end time" type="double" value=" 1" />
@@ -239,7 +239,7 @@
       </ParameterList>
 
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../data/arctic_hydrology_freezeup-checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../freezeup.demo/checkpoint_final.h5" />
       </ParameterList>
 
       <ParameterList name="water retention evaluator" type="ParameterList">
@@ -332,7 +332,7 @@
       </ParameterList>
 
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../data/arctic_hydrology_freezeup-checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../freezeup.demo/checkpoint_final.h5" />
       </ParameterList>
 
       <ParameterList name="thermal conductivity evaluator" type="ParameterList">
